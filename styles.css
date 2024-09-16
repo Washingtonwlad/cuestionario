@@ -6,7 +6,26 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
+header {
+    position: relative;
+    padding-top: 100px; /* Ajusta este valor según sea necesario */
+    padding-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
+
+h2, h3 {
     color: #333;
 }
 
@@ -58,27 +77,19 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* styles.css */
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    .logo {
+        max-width: 80px; /* Ajustamos el tamaño para pantallas pequeñas */
+        top: 10px;
+        right: 10px;
+    }
 
-/* ... (tus estilos existentes) ... */
+    header {
+        padding-top: 80px; /* Ajustamos el espaciado en pantallas pequeñas */
+    }
 
-/* Estilos para el header */
-header {
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-header h1 {
-    text-align: center;
-    margin: 0;
-}
-
-/* Estilos para el logo */
-.logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
-    height: auto;
+    header h1 {
+        font-size: 1.5em;
+    }
 }

@@ -39,15 +39,20 @@ p {
 
 .pregunta p {
     font-weight: bold;
+    font-size: 18px; /* Aumenta el tamaño de las preguntas */
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Aumenta el espacio entre opciones */
+    font-size: 18px; /* Aumenta el tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el label */
 }
 
 input[type="radio"] {
     margin-right: 10px;
+    transform: scale(1.2); /* Aumenta el tamaño del radio button */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el radio button */
 }
 
 button {
@@ -91,5 +96,22 @@ footer a:hover {
 
     header h1 {
         font-size: 1.5em;
+    }
+
+    label {
+        font-size: 20px; /* Aumentamos el tamaño de fuente en móviles */
+    }
+
+    input[type="radio"] {
+        transform: scale(1.5); /* Aumentamos el tamaño del radio button en móviles */
+    }
+
+    .pregunta p {
+        font-size: 18px; /* Aumentamos el tamaño de las preguntas en móviles */
+    }
+
+    button {
+        font-size: 18px; /* Aumentamos el tamaño del texto del botón en móviles */
+        padding: 15px 20px; /* Aumentamos el tamaño del botón */
     }
 }

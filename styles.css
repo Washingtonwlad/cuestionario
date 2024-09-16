@@ -57,3 +57,28 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* styles.css */
+
+/* ... (tus estilos existentes) ... */
+
+/* Estilos para el header */
+header {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+/* Estilos para el logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
